@@ -49,6 +49,10 @@ data/*
 Thumbs.db
 
 # Large data files
+movies_data.pkl
+tfidf_index.bin
+tfidf_vectorizer.pkl
+imdb-movies.csv
 *.pptx
 ~$*.pptx
 
