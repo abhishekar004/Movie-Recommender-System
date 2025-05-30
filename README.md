@@ -19,6 +19,7 @@ A Python-based movie recommendation system that suggests movies based on user pr
    - [movies_data.pkl](https://drive.google.com/file/d/1bmn6WJ2b2UCHF_SQkgAT3oyxSAuQF42U/view?usp=drive_link)
    - [tfidf_index.bin](https://drive.google.com/file/d/1bnnYz-Y0L5QWwEZfQWlHhoLggBUDklpm/view?usp=drive_link)
    - [tfidf_vectorizer.pkl](https://drive.google.com/file/d/1I_rxnLpaJxoh_HypjGIylaU3-MdBvc63/view?usp=drive_link)
+   - [imdb-movies.csv](https://drive.google.com/file/d/1ff4dlynJte3_YCOX2AAC5ZQHk1L-Hkx5/view?usp=drive_link)
    
    Place these files in the root directory of the project.
 
@@ -41,6 +42,7 @@ The following data files are required to run the application (not included in th
 - `movies_data.pkl`: Contains processed movie data
 - `tfidf_vectorizer.pkl`: TF-IDF vectorizer model
 - `tfidf_index.bin`: TF-IDF index for fast similarity search
+- `imdb-movies.csv`: Raw movie dataset from IMDB
 
 These files can be downloaded from the Google Drive links provided in the Setup section.
 
