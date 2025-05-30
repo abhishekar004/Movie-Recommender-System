@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -20,28 +21,34 @@ wheels/
 .installed.cfg
 *.egg
 
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
 # Virtual Environment
 venv/
-env/
 ENV/
 
 # IDE
 .idea/
 .vscode/
-*.swp
-*.swo
+
+# Project specific
+*.pkl
+*.bin
+*.h5
+*.model
+*.joblib
+
+# Keep the data directory but ignore contents
+data/*
+!data/.gitkeep
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Jupyter Notebook
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
-
 # Large data files
-*.pkl
-*.bin
 *.pptx
 ~$*.pptx
 
