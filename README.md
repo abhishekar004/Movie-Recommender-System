@@ -2,6 +2,8 @@
 
 A Python-based movie recommendation system that suggests movies based on user preferences and content similarity.
 
+> **This project was completed as a college mini project by a group of 3 members: K. Satwika, A. Chandrika, and P. Abhi Shekar (myself).**
+
 ## Features
 
 - Content-based movie recommendations
@@ -29,6 +31,22 @@ Run the main script:
 ```bash
 python Movies.py
 ```
+
+## Example Screenshots
+
+Below are some example screenshots of the Movie Recommender System in action:
+
+![Search Example](image%20(1).png)
+*Search for movies by title or keyword.*
+
+![Age and Genre Recommendations](image%20(2).png)
+*Recommendations based on age and selected genres.*
+
+![Content-Based Recommendations](image%20(3).png)
+*Content-based recommendations for a selected movie.*
+
+![Movie Details](image%20(4).png)
+*Detailed view of a recommended movie.*
 
 ## Project Structure
 
